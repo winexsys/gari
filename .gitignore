@@ -1,0 +1,32 @@
+# Terraform
+.terraform/
+*.tfstate
+*.tfstate.*
+crash.log
+*.tfvars
+*.tfvars.json
+override.tf
+override.tf.json
+*_override.tf
+*_override.tf.json
+.terraformrc
+terraform.rc
+
+# General
+*.log
+*.bak
+*.tmp
+.DS_Store
+Thumbs.db
+.idea/
+.vscode/
+.env
+.env.*
+
+# OS generated files
+*.swp
+*~
+
+# Python virtual environments (if any)
+venv/
+__pycache__/
